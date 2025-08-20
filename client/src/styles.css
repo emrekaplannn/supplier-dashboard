@@ -1,0 +1,16 @@
+:root{ --bg:#0b0c10; --card:#121318; --text:#e8eaf0; --muted:#9aa0a6; --accent:#6ea8fe; }
+*{ box-sizing: border-box; }
+body{ margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu; background:var(--bg); color:var(--text); }
+.container{ max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+header{ display:flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+h1{ font-size: 24px; margin: 0; }
+.controls{ display:flex; gap:8px; align-items:center; }
+select{ background: var(--card); color: var(--text); border:1px solid #252733; padding:8px 10px; border-radius:10px; }
+.card{ background: var(--card); border:1px solid #1e202a; border-radius: 16px; padding: 16px; margin: 14px 0; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.card h2{ margin: 4px 0 12px; font-size: 18px; }
+.muted{ color: var(--muted); }
+.table-wrap{ overflow:auto; }
+table{ width:100%; border-collapse: collapse; }
+th, td{ padding:10px 8px; text-align:left; border-bottom:1px solid #222431; }
+th{ color:#cfd3dc; font-weight:600; }
+footer{ margin-top:20px; color: var(--muted); }
